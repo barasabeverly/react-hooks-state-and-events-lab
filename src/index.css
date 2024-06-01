@@ -20,6 +20,22 @@ body {
   font-size: 18px;
 }
 
+/* Default (light mode) styles */
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: #282c34;
+  color: white;
+}
+
+.App.dark button:hover {
+  background-color: #444;
+}
+
+
 button,
 select {
   border: none;
